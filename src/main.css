@@ -1,0 +1,480 @@
+
+/*Alphonse MMboumba
+Main.-css-file
+08/15/17*/
+html, body, section, header, h1, h2, h3, h4, h5, h6, aside,ul,li,ol, footer{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /*border: 1px solid black;*/
+  padding: 50px;
+  width: 1250px;
+  margin: 0 auto 0 auto;
+  background-color: #00FA9A;
+}
+header{
+  /*border: 1px solid black;*/
+  background-color: #7FFFD4;
+  /*border-radius: 10px;*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+h1#h1-section{
+  /*border: 1px solid black;*/
+  text-align: center;
+  font-size: 390%;
+  padding: 10px;
+  color: #B22222;
+  text-shadow: -3px 3px #00FF7F;
+  font-family: sans-serif;
+  border-radius: 10px;
+  /*border-radius: 50%;*/
+  width: 300px;
+  margin: 0 auto 0 auto;
+  background-color: #008080;
+}
+
+ul.weekList{
+  /*border: 1px solid black;*/
+  width: 790px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  background-color: #FDF5E6;
+}
+
+ul.weekList li{
+display: inline;
+}
+
+ul.weekList li{
+  margin-right: 45px;
+
+}
+ul.weekList li a{
+  color: #1E90FF;
+  text-decoration: none;
+  font-size: 25px;
+}
+ul.weekList li a:hover{
+  color: #7FFF00;
+}
+h2#starting-fresh-link{
+  /*border: 1px solid black;*/
+  float: right;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background-color: #1E90FF;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+h2#starting-fresh-link a{
+  color: #FDF5E6;
+  text-decoration: none;
+  font-family: monospace;
+}
+h2#my-account-style{
+  /*border: 1px solid black;*/
+  float: left;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background-color: #1E90FF;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+h2#my-account-style a{
+  color: #FDF5E6;
+  text-decoration: none;
+  font-family: monospace;
+}
+h2#page-title-style{
+  /*border: 1px solid black;*/
+  /*float: right;*/
+  width: 300px;
+  /*text-align: center;*/
+  padding: 10px;
+  background-color: #1E90FF;
+  border-radius: 20px;
+  margin: 0 auto 0 auto;
+  /*margin-top: 10px;*/
+  text-align: center;
+  color: darkred;
+  font-size: 50px;
+
+}
+section.page-title-section-box{
+  /*border: 1px solid black;*/
+  /*width: 500px;*/
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #7FFFD4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section.date-paycheck-input{
+  border: 1px solid #00FA9A;
+}
+section.date-paycheck-input p:first-child input{
+  border: 0;
+  height: 30px;
+  width: 140px;
+  font-size: 30px;
+  background-color: yellow;
+  color: green;
+  padding: 3px;
+}
+section.date-paycheck-input p:last-child input{
+  border: 0;
+  height: 30px;
+  width: 120px;
+  font-size: 30px;
+  background-color: yellow;
+  color: green;
+  padding: 3px;
+}
+section.date-paycheck-input p:first-child{
+  float: right;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+
+}
+section.date-paycheck-input p:last-of-type{
+  /*float: left;*/
+  font-size: 30px;
+  padding: 10px;
+  color: blue;
+
+}
+section.short-terms-goals-box{
+  border: 1px solid black;
+  /*float: right;*/
+}
+aside.asideBoxHelp{
+  /*border: 1px solid black;*/
+  padding: 10px;
+  background-color: #FDF5E6;
+
+}
+
+aside.asideBoxHelp p{
+  font-size: 30px;
+  color: orange;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+aside.asideBoxHelp ul li{
+  display: inline;
+}
+aside.asideBoxHelp ul{
+  /*border: 1px solid black;*/
+  width: 900px;
+  margin: 0 auto 0 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+aside.asideBoxHelp ul li{
+  /*border: 1px solid black;*/
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  background-color: green;
+  border-radius: 10px;
+}
+aside.asideBoxHelp ul li:hover{
+  /*border: 1px solid black;*/
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  background-color: #FDF5E6;
+  border-radius: 10px;
+}
+aside.asideBoxHelp ul li a{
+  /*border: 1px solid black;*/
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+aside.asideBoxHelp ul li a:hover{
+
+  color: red;
+  border-radius: 10px;
+  background-color: lime;
+
+
+}
+section.table-section{
+  /*border: 1px solid black;*/
+  padding: 5px 5px 5px 5px;
+  margin: 10px auto 0 auto;
+  background-color: #FDF5E6;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td{
+  text-align: center;
+}
+td:first-of-type{
+  text-align: left;
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td:nth-child(2){
+  color: red;
+}
+#saving-style{
+  text-align: center;
+  font-size: 50px;
+  color: #185938;
+  font-family: Calibri;
+  padding:0;
+
+}
+#bills-style{
+  text-align: center;
+  font-size: 50px;
+  color: #ff0000;
+  font-family: Calibri;
+  padding:0;
+
+}
+#everyday-use-style{
+  text-align: center;
+  font-size: 50px;
+  color: #ffa800;
+  font-family: Calibri;
+  padding:0;
+
+}
+#other-style{
+  text-align: center;
+  font-size: 50px;
+  color: #0066CC;
+  font-family: Calibri;
+  padding:0;
+}
+.lowAmount{
+  color: green;
+}
+.mediumAmount{
+  color: orange;
+}
+.highAmount{
+  color: red;
+}
+
+section.short-terms-goals-display{
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+section.short-terms-goals-display aside p{
+  /*border: 1px solid black;*/
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto 10px auto;
+  background-color: #FDF5E6;
+  font-size: 20px;
+  color: #FFD700;
+
+}
+marquee{
+  padding: 2px;
+  font-size: 30px;
+  /*background-color: #FDF5E6;*/
+  color: darkred;
+}
+section.support-and-other-contact{
+  /*border: 1px solid black;*/
+  padding: 10px;
+  text-align: center;
+  padding: 20px;
+  background-color: #32CD32;
+}
+section.support-and-other-contact p{
+  /*border: 1px solid black;*/
+  display: inline;
+  padding: 10px;
+  margin-right: 100px;
+  text-align: center;
+  background-color: lightgreen;
+  text-decoration: none;
+
+}
+section.support-and-other-contact p a{
+  /*border: 1px solid black;*/
+  display: inline;
+  padding: 5px 5px 5px 5px;
+  background-color: LIMEGREEN;
+  color: white;
+  /*margin-right: 100px;*/
+  color: #778899;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+section.support-and-other-contact p:hover{
+  /*border: 1px solid black;*/
+  display: inline;
+  padding: 10px;
+  margin-right: 100px;
+  text-align: center;
+  background-color: darkred;
+  text-decoration: none;
+
+}
+section.support-and-other-contact p a:hover{
+  /*border: 1px solid black;*/
+  display: inline;
+  padding: 5px 5px 5px 5px;
+  background-color: red;
+  color: lightgreen;
+  /*margin-right: 100px;*/
+  text-align: center;
+  text-decoration: none;
+}
+
+section.footer-Section{
+  /*border: 1px solid black;*/
+}
+section.footer-Section footer ul li{
+  /*border: 1px solid black;*/
+  display: inline;
+  margin-right: 5px;
+  /*background-color: red;*/
+}
+section.table-section table tr:not(:first-child):not(:last-child){
+text-align: center;
+
+}
+
+section section:first-child{
+  /*border: 1px solid black;*/
+  /*width: 1000px;*/
+  text-align: center;
+  padding:20px 20px 20px 20px;
+  margin: 0 auto 0 0;
+  display: inline-flex;
+
+}
+section section:first-child form {
+  /*border: 1px solid black;*/
+  width: 600px;
+  text-align: center;
+  padding:20px 20px 20px 20px;
+  margin: 0 auto 0 auto;
+  background: #185938;
+  /*font-size: 500px;*/
+  border-radius: 10px 10px 10px 10px;
+  display: inline;
+
+}
+section section:first-of-type form select{
+  font-size: 20px;
+}
+section section:first-of-type form select option:nth-child(1){
+  color: green;
+  /*background: pink;*/
+
+}
+section section:first-of-type form select option:nth-child(2){
+  color: red;
+}
+section section:first-of-type form select option:nth-child(3){
+  color: #ffa800;
+
+}
+section section:first-of-type form select option:nth-child(4){
+  color: #171eff;
+
+}
+section section:first-child form input:first-of-type{
+  font-size: 20px;
+  width: 155px;
+  background: darkgreen;
+  color: deepskyblue;
+  border-radius: 5px;
+  margin: 0 0 0 20px;
+  padding: 0;
+
+
+}
+section section:first-child form input:last-child{
+  font-size: 20px;
+  width: 94px;
+  margin: 0 0 0 20px;
+  border-radius: 5px;
+  padding: 0;
+  background: darkgreen;
+  color: #1E90FF;
+
+}
+section section:first-child button {
+  width: 100px;
+  /*height: 50px;*/
+  margin: 0 0 0 100px;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #185938;
+  background-color: lightgreen;
+  /*-webkit-border-radius: 40px;*/
+  border-bottom-color: deepskyblue;
+  border-right-color: deepskyblue;
+
+  border-top-color: lightseagreen;
+  border-left-color: lightseagreen;
+
+}
+
+aside:nth-last-child(3){
+  border: 1px solid black;
+  font-size: 300px;;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End ofcode copy rights of 2017 Fonzie*/

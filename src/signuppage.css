@@ -1,0 +1,245 @@
+<<<<<<< HEAD
+html, body, section, header, main, form,p,button, input, footer{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: chartreuse;
+}
+section{
+  border: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+  margin: 80px auto 0 auto;
+  padding: 50px;
+}
+header{
+  border: 1px solid black;
+  text-align: center;
+  padding: 40px;
+  background-color: #fc3a4d;
+  border-radius: 20%;
+}
+h1{
+  border: 1px solid black;
+  border-color: green;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  font-size: 50px;
+  color: #ff0000;
+  text-shadow: 1px 3px #e9b9bf;
+}
+main.signup-section{
+  border: 1px solid black;
+  width: 700px;
+  height: 500px;
+  margin: 30px auto 0 auto;
+  padding: 0;
+  padding-right: 20px;
+  /*text-align: center;*/
+}
+h2{
+  border: 1px solid black;
+  width: 200px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+ul{
+  display: list-item;
+}
+li{
+  list-style: none;
+  margin-top: 20px;
+  /*flow-from: right*/
+  /*list-style-position: */
+  /*list-style-image: url("C:\\Users\\Alphonse\\Desktop\\soccerpic.jpg");*/
+
+}
+input[type=text]{
+  border: 1px solid black;
+  width: 200px;
+  /*float: right;*/
+  margin: 0 auto 0 auto;
+
+}
+input[type=email]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+
+  /*float: right;*/
+}
+input[type=password]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+
+  /*float: right;*/
+}
+input[type=date]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+  /*float: right;*/
+}
+
+/*input[type=date]{
+  border: 1px solid black;
+  width: 200px;
+  float: right;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+=======
+html, body, section, header, main, form,p,button, input, footer{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: chartreuse;
+}
+section{
+  border: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+  margin: 80px auto 0 auto;
+  padding: 50px;
+}
+header{
+  border: 1px solid black;
+  text-align: center;
+  padding: 40px;
+  background-color: #fc3a4d;
+  border-radius: 20%;
+}
+h1{
+  border: 1px solid black;
+  border-color: green;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  font-size: 50px;
+  color: #ff0000;
+  text-shadow: 1px 3px #e9b9bf;
+}
+main.signup-section{
+  border: 1px solid black;
+  width: 700px;
+  height: 500px;
+  margin: 30px auto 0 auto;
+  padding: 0;
+  padding-right: 20px;
+  /*text-align: center;*/
+}
+h2{
+  border: 1px solid black;
+  width: 200px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+ul{
+  display: list-item;
+}
+li{
+  list-style: none;
+  margin-top: 20px;
+  /*flow-from: right*/
+  /*list-style-position: */
+  /*list-style-image: url("C:\\Users\\Alphonse\\Desktop\\soccerpic.jpg");*/
+
+}
+input[type=text]{
+  border: 1px solid black;
+  width: 200px;
+  /*float: right;*/
+  margin: 0 auto 0 auto;
+
+}
+input[type=email]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+
+  /*float: right;*/
+}
+input[type=password]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+
+  /*float: right;*/
+}
+input[type=date]{
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto 0 auto;
+  /*float: right;*/
+}
+
+/*input[type=date]{
+  border: 1px solid black;
+  width: 200px;
+  float: right;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+>>>>>>> 309abed7b9bd24f2e4e575c53dbf9739d6c22ff1

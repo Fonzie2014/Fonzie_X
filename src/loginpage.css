@@ -1,0 +1,236 @@
+html,body,section,header,h1,h2,form,input,footer,ul,li,a{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  border: 1px solid black;
+  border: none;
+  background: #c1faca;
+  width: 900px;
+  height: auto;
+  margin: 5px auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+header{
+  /*border: 1px solid black;*/
+  width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  height: auto;
+  text-align: center;
+}
+header h1{
+  font-size: 100px;
+  padding: 10px;
+  text-shadow: -6px 6px 20px darkred;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+main{
+  /*border: 1px solid black;*/
+  padding: 10px 10px 10px 10px;
+  height: auto;
+  width: 630px;
+  margin: 10px auto 0 auto;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #e0e0e0;
+  font-size: 30px;
+
+}
+form{
+  text-align: center;
+  border: 1px dashed black;
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+form p{
+  border: 1px solid black;
+  border: none;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  color: darkgreen;
+  margin: 0 auto 0 auto;
+  width: 200px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+form p:last-of-type{
+  border: 1px dashed black;
+  border: none;
+  width: 400px;
+  color: darkred;
+}
+input[type=text]{
+  border: 1px dashed black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  margin: 10px auto 10px auto;
+  color: darkgreen;
+  background: skyblue;
+
+}
+input[type=password]{
+  border: 1px dashed black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  margin: 10px auto 10px auto;
+  color: darkgreen;
+  background: skyblue;
+}
+input[type=submit]{
+  /*border: 1px solid black;*/
+  border-radius: 5px 5px 5px 5px;
+  width: 200px;
+  height: 50px;
+  padding: 2px;
+  font-size: 20px;
+  background-color: skyblue;
+  color: green;
+  margin: 0 35px 0 35px;
+  display: inline;
+}
+aside{
+  border: 1px dashed black;
+  border: none;
+  margin: 5px auto 5px auto;
+  /*padding: 10px 10px 10px 10px;*/
+}
+aside ul{
+  margin: 0 auto 0 -45px;
+  border: 1px dashed black;
+  border: none;
+  width: 1000px;
+  padding: 10px 5px 10px 5px;
+  font-size: 15px;
+  text-align: center;
+
+
+}
+aside ul li{
+  display: inline;
+  margin: 0 20px 0 20px;
+  /*color: darkgray;*/
+
+}
+aside ul li a{
+  color: darkgray;
+  font-size: 15px;
+
+}
+aside ul li:hover:first-child a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+
+}
+aside ul li:nth-child(2){
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:hover:nth-child(3) a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:nth-child(4){
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:hover:nth-child(5) a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:nth-child(6){
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:hover:nth-child(7) a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:nth-child(8){
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:hover:nth-child(9) a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:nth-child(10){
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+aside ul li:hover:nth-child(11) a{
+  color: #e0e0e0;
+  font-size: 20px;
+  /*background: green;*/
+}
+footer{
+  /*border: 1px dashed black;*/
+  width: auto;
+  padding: 5px 5px 5px 5px;
+}
+footer ul{
+  /*border: 1px dashed black;*/
+  padding: 5px 5px 5px 5px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+footer ul li{
+  /*border: 1px solid black;*/
+  padding: 5px 5px 5px 5px;
+  color: yellowgreen;
+  display: inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of code, copy rights of 2017*/

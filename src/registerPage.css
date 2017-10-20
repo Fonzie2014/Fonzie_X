@@ -1,0 +1,176 @@
+/*Alphonse Mboumba
+Register Page File
+CSS file
+09/20/2017 */
+
+
+html,body,form,h1,/*input,textarea,*/p,select,option{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  /*border: 1px solid black;*/
+  /*width: 1000px;*/
+  height: 770px;
+  margin: 25px auto 300px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f8e9;
+  padding: 0 20px 0 20px;
+}
+/*
+input,textarea{
+  border: 1px solid black;
+  border-radius: 5px;
+  border-color: green;
+  font-size: 15px;
+  color: green;
+}*/
+header{
+  font-size: 50px;
+
+}
+
+h1{
+  /*border: 1px solid black;*/
+  box-shadow: -5px 5px green;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: green;
+}
+main{
+  border: 1px solid black;
+  width: 800px;
+  margin: 30px auto 10px auto;
+  border-radius: 10px 10px 10px 10px;
+  border-color: green;
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+
+}
+input, button, textarea{
+  border-radius: 5px;
+  border-color: lightgreen;
+  color: green;
+  background-color: lightgreen;
+  font-size: 20px;
+}
+button{
+  margin: 0 65px 0 65px;
+}
+form{
+  /*border: 1px dashed black;*/
+  margin-top: 20px;
+}
+form input:first-child{
+  border: none;
+}
+form input:last-child{
+  color: green;
+  width: 90px;
+  height: 30px;
+  /*margin-left: 20px;*/
+  font-size: 15px;
+  float: right;
+  background-color: white;
+
+}
+form input:nth-last-child(2){
+  font-size: 15px;
+  color: green;
+  width: 90px;
+  height: 30px;
+  /*margin-right: 20px;*/
+  float: left;
+  background-color: white;
+
+}
+p{
+  font-size: 20px;
+  color: green;
+  padding: 5px;
+
+}
+select.school-year{
+  margin-bottom: 20px;
+}
+section{
+  /*border: 1px solid black;*/
+  /*margin: 30px auto 20px auto;*/
+  border-radius: 10px;
+  /*box-shadow: -5px 5px red, 5px 5px red;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;*/
+}
+section ul li{
+  display: inline;
+  margin: 0 30px 0 0;
+}
+section ul li a{
+  color: green;
+  text-decoration: none;
+
+}
+aside{
+  border: 1px dashed black;
+  border: none;
+  width: 1000px;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto 0 auto;
+}
+aside ul li{
+  display: inline;
+  /*width: 1200px;*/
+  margin: 0 15px 0 15px;
+}
+
+footer{
+  border: 1px dashed green;
+  border: none;
+  padding: 0 10px 0 10px;
+  margin: -10px auto 0 auto;
+}
+footer ul{
+  border: 1px solid black;
+  border: none;
+  width: 1000px;
+  padding: 20px 10px 10px 10px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+footer ul li{
+  /*border: 1px dashed green;*/
+  display: inline;
+  /*padding: 1px;*/
+  margin: 0 15px 0 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of Code CSS file copy rights of 2017*/

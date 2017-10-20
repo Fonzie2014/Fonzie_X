@@ -1,0 +1,270 @@
+html,body,header,a,ul,p,li,figure,section,main,h1,h2,h3,h4,h5,h6,img{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body{
+  border: 1px solid black;
+  border:none;
+  width: 1100px;
+  margin: 0 auto 0 auto;
+  padding: 30px 30px 30px 30px;
+  display: block;
+  background-color: #c1faca;
+}
+header{
+  border: 1px dashed black;
+  border:none;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+  font-size: 50px;
+  margin: 0 auto 0 auto;
+  background-color: #1fbd97;
+}
+h1{
+  border:1px dashed black;
+  border:none;
+  color: #c1faca;
+  font-family: "Agency FB";
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: -5px 5px 10px darkgreen;
+}
+h1 a{
+  border:1px dashed black;
+  border:none;
+  color: #c1faca;
+  font-family: "Agency FB";
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: -5px 5px 10px darkgreen;
+  text-decoration: none;
+}
+h2{
+  border:1px dashed black;
+  margin: 0 auto 10px auto;
+
+}
+figure{
+  margin: 20px 150px 20px 0;
+  width: auto;
+  border-radius: 10px 10px 10px 10px;
+
+  /*height: 300px;*/
+  border: 1px solid black;
+  border:none;
+  padding: 10px 10px 10px 10px;
+  box-shadow: -5px -5px 15px green,
+              5px 5px 15px green;
+  display: inline-block;
+}
+figure:nth-child(3){
+  width: auto;
+  text-align: center;
+
+}
+figure ul li:nth-child(even) {
+  background-color: red;
+}
+figure ul li:nth-child(odd) {
+  background-color: lightseagreen;
+}
+figure ul {
+  border: 1px dashed black;
+  border:none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+figure ul li{
+  /*border: 1px dashed black;*/
+  margin: 2px 0 0 0;
+  width: 200px;
+  text-align: right;
+  list-style: none;
+  color: white;
+  border-radius: 4px 4px 4px 4px;
+  padding: 3px 3px 3px 3px;
+}
+figure ul:nth-child(even) li{
+  width: 100px;
+  /*font-size: 300px;*/
+  text-align: center;
+  margin: 2px 0 0 0;
+
+}
+
+img{
+  width:auto;
+  height:228px;
+
+}
+figcaption{
+  font-size: 30px;
+  color: green;
+  text-align: center;
+
+}
+main {
+  border: 1px solid black;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  height: 700px;
+  border-radius: 10px 10px 10px 10px;
+  background-image: url("money-background.png");
+  background-size: cover;
+  /*font-size: 30px;*/
+}
+main section:first-child{
+  /*border: 1px dashed black;*/
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+main section:first-child ul{
+  /*border: 1px solid black;*/
+  padding:10px 10px 10px 10px;
+  background: rgba(0, 191, 255,0.7);
+  border-radius: 10px 10px 10px 10px;
+
+}
+main section:first-child ul li{
+  display: inline;
+  margin: 0 50px 0 50px;
+  padding:10px 10px 10px 10px;
+
+}
+main section:first-child ul li a{
+  text-decoration: none;
+  color: yellow;
+  font-size: 20px;
+
+
+}
+
+/*<p>Yearly Total Saving: </p>*/
+/*<p>Monthly Avg Saving: </p> */
+/*<p>Weekly Avg Saving: </p> */
+/*<h4>Current Balance:</h4>*/
+
+main section:last-of-type h2 {
+  text-align: center;
+  font-size: 90px;
+  font-family: Broadway;
+  color: green;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  background: rgba(0, 191, 255,0.7);
+  /*height: 500px;*/
+}
+main section:last-of-type{
+  border: 1px solid black;
+  border: none;
+
+  padding:10px 10px 10px 10px;
+  /*width: 900px;*/
+  margin:0 auto 0 auto;
+  /*background: red;*/
+  height: 420px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section:last-of-type section{
+  border: 1px solid black;
+  border:none;
+  border-radius: 10px 10px 10px 10px;
+  /*width: 200px;*/
+  height:auto;
+  padding:10px 10px 10px 10px;
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  background: rgba(0, 191, 255,0.7);
+  margin: 30px 10px 0 auto;
+  /*margin-right: %;*/
+  color: rgb(8, 14, 235);
+}
+main section:last-of-type section ul li{
+  list-style: none;
+}
+section ul{
+  display: inline-block;
+}
+aside{
+  /*border: 1px solid black;*/
+}
+aside ul{
+  /*border: 1px solid black;*/
+  padding: 10px 10px 10px 10px;
+  margin:0 auto 0 auto;
+  width: 890px;
+  color: seagreen;
+}
+aside ul li{
+  /*border: 1px solid black;*/
+  display: inline;
+  padding:5px 5px 5px 5px;
+  margin: 0 10px 0 10px;
+  color: seagreen;
+}
+aside ul li a{
+  color: seagreen;
+  text-decoration: none;
+}
+footer{
+  /*border:1px solid black;*/
+
+}
+footer ul{
+  /*border:1px solid black;*/
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+
+}
+footer ul li{
+  border:1px solid black;
+  border:none;
+  display: inline;
+  margin: 0 10px 0 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of Code Copy Right of Fonzie 2017*/

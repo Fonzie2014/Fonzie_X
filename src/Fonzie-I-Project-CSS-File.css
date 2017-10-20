@@ -1,0 +1,231 @@
+/*Alphonse Mboumba
+Fonzie-I-Project-CSS-File
+08/09/17*/
+
+html, body, section, header,main, h1, ul, li{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*Alphonse Mboumba
+Update 1.0.2 CSS File
+10/12/17
+Changing color and other things
+other files in old files.*/
+
+body{
+  border:1px ridge darkred;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px 20px 10px 20px;
+  box-sizing: border-box;
+  width: 1100px;
+  height: auto;
+  background-color: rgba(255, 0, 0, 0.1);
+  margin: 70px auto 10px auto;
+}
+header{
+  border: 3px ridge darkred;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  width: 900px;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(178, 34, 34,0.7);
+}
+header h1{
+
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip:text;
+  font-style: normal;
+  font-family: Chiller;
+  font-size: 150px;
+}
+main{
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  width: 900px;
+  height: auto;;
+  margin: 20px auto 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(34, 255, 34,0.2);
+}
+main ul{
+  list-style: none;
+  border: 1px ridge black;
+  /*border:none;*/
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  border-radius: 10px 10px 10px 10px;
+
+}
+main ul li{
+  display: inline;
+  border:1px solid black;
+  padding:10px 10px 10px 10px;
+  margin: 0 20px 0 20px;
+  border: none;
+  font-family: Calibri;
+}
+main ul li a {
+  color: darkgray;
+  text-decoration: none;
+  text-blink: 40pc;
+}
+main ul li a:hover{
+ animation-name: linkHover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+main section{
+  border: 1px solid black;
+  margin: 10px auto 10px auto;
+  height: 300px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+main section h2{
+  border: 1px solid black;
+  width: 700px;
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  border:none;
+  font-size: 30px;
+}
+main section p:first-of-type{
+  border: 1px solid red;
+  padding:10px 10px 10px 10px;
+  width: 700px;
+  margin: 0 auto 0 auto;
+  font-size: 20px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #6d9b0a;
+  border:none;
+
+}
+main section p:last-of-type{
+  border: 1px solid red;
+  padding:10px 10px 10px 10px;
+  width: 700px;
+  margin: 10px auto 0 auto;
+  font-size: 20px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #6d9b0a;
+  border:none;
+
+}
+main section ul{
+  border: none;
+  height: 10px;
+
+}
+main section ul li{
+  /*border: none;*/
+  border: 1px solid red;
+  height: 10px;
+  box-sizing: content-box;
+  margin: 0 auto 0 auto;
+  border:none;
+
+
+}
+@keyframes linkHover {
+  0% {color:red;}
+  10% {color: #7FFF00;}
+  25% {color: green;}
+  50% {color:blue;}
+  75% {color: white;}
+  85% {color: #22ffff;}
+  100% {color:orange;}
+
+
+}
+footer{
+  /*border: 1px solid black;*/
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  width: auto;
+
+}
+footer ul{
+  border: 1px solid black;
+  border:none;
+  background-color: lightgrey;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto 0 auto;
+  width: 1000px;
+  height: auto;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: none;
+  border-radius: none;
+
+}
+footer ul li{
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  display: inline;
+  margin: 0 auto 0 auto;
+}
+
+
+
+
+
+
+
+
+/*
+ <p >Fonzie I Project is a powerfull
+             computer language that run
+              <strong>
+              Temp Name
+               <!--iTwinna-->
+               </strong>
+               Platform and was created by
+             <strong>
+               <em>
+                    Alphonse Mboumba in 2017.
+               </em>
+             </strong>
+             We help any other organization in a need of there
+             code be written in a better and smooth way.
+  </p>
+             <p >Please Follow us on:
+             </p>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of code 2017 copy right of Fonzie, All rights reserved*/

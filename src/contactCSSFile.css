@@ -1,0 +1,384 @@
+/*Alphonse Mboumba
+CSS File
+For Contact Page Info
+08/08/17*/
+
+html,body,header,section,h1,h2,footer,ul,li{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*body{
+  padding: 30px;
+  background-color: #abfced;
+  height: 1000px;
+padding-bottom: -10px;
+}
+header{
+  border: 1px dashed green;
+  height: 250px;
+  background-color: darkred;
+  margin-top: 20px;
+}
+footer{
+  border: 1px solid black;
+  margin: 200px auto 0 auto;
+  width: 600px;
+  padding-bottom: 10px;
+}
+h1{
+text-align: center;
+color: lightgray;
+font-size: 100px;
+}
+li{
+  display: inline;
+  margin: 0 auto 0 auto;
+  border: 1px solid red;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+span{
+  font-size: 40px;
+  color: red;
+}
+#centerPara{
+  text-align: center;
+  box-shadow: -5px 0 darkred, 5px 0 darkred;
+}
+#lastParaContact{
+  box-shadow: 5px 5px darkred;
+
+}
+.contactH2{
+  border-left: 1px solid yellow;
+  border-top: 1px solid yellow;
+  width: 1000px;
+  font-size: 30px;
+  margin: 200px auto 50px auto;
+  padding: 20px;
+  box-shadow: -5px -5px red;
+  color: darkred;
+
+}
+.homeLinkButtonBox{
+  border: 5px dashed darkred;
+  width: 200px;
+  margin: -90px auto 0 auto;
+  font-size: 40px;
+  background-color: lightgray;
+  padding: 10px;
+}
+.homePageLink{
+  text-decoration: none;
+  color: darkred;
+}
+.aboutPageLinkButtonBox{
+  border: 5px dashed darkred;
+  width: 200px;
+  margin: -80px 0 0 auto;
+  font-size: 40px;
+  background-color: lightgray;
+  padding: 10px;
+}
+.aboutPageLink{
+  text-decoration: none;
+  color: darkred;
+}
+.paraBox{
+  border: 1px solid orange;
+  width: 1000px;
+  font-size: 30px;
+  margin: 40px auto 0 auto;
+  padding: 20px;
+  box-decoration-break: slice;
+}
+.paraBoxContactInfo{
+  border: 1px solid black;
+  height: 650px;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: -50px auto 0 auto;
+  padding: 10px;
+}
+.mainPageBox{
+  padding: 0;
+  border: 5px solid darkred;
+  width: 1500px;
+  margin: 0 auto 0 auto;
+}
+.contactList{
+  border: 10px solid darkgray;
+  margin: -88px auto 0 auto;
+  width: 1000px;
+  height: 80px;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.contactLinksSection{
+  border: 3px dashed green;
+  width: 950px;
+  margin: 0 auto 0 auto;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.contactListLinks{
+  text-decoration: none;
+  color: darkred;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: -4px;
+  margin: 0 10px 0 auto;
+  border: 1px solid red;
+  box-shadow: -4px 4px #6ad212;
+  padding: 5px 0 0 5px;
+}
+.footerBox{
+  border: 1px solid red;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  height: 30px;
+  width: 700px;
+  padding: 10px 0 0 0;
+  margin: 200px auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iTwinna{
+  border: 1px solid red;
+  box-shadow: -4px 4px yellow;
+  text-shadow: 1px -1px red;
+  color:#5Fe4b9;
+  background-color: pink;
+  font-style: oblique;
+  text-align: center;
+  border-style: solid;
+
+}*/
+/*End of update 1.0.1 copy rights of  2017 Fonzie X*/
+/*
+Alphonse Mboumba
+Contact Files For CSS Style
+09/28/2017
+update 1.0.2*/
+
+body{
+  border: 1px groove rgba(0,255,0,0.5) ;
+  padding: 20px 20px 20px 20px;
+  width: 1000px;
+  height: auto;
+  margin: 50px auto 30px auto;
+  background-color: rgba(0, 255, 0,0.1);
+  border-radius: 10px 10px 10px 10px;
+
+}
+header{
+  border: 1px dashed none;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 50px;
+  background: rgba(0,255,0,0.2);
+}
+h1{
+  text-align: center;
+  border: 1px dashed green;
+  width: 500px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  background: green;
+}
+h1 a{
+  color: lightgreen;
+  text-align: center;
+  text-decoration: none;
+}
+main{
+  border: 1px solid black;
+  border: none;
+  padding: 25px 25px 25px 25px;
+  background: rgba(0,255,0,0.2);
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px auto 0 auto;
+}
+main ul{
+  border: 1px dashed yellow;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 500px;
+  height:auto;
+  font-size: 30px;
+  border-radius: 10px 10px 10px 10px;
+  background: darkgreen;
+}
+
+main ul li{
+  display: inline;
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+main ul li a{
+  color: lightgreen;
+  text-decoration: none;
+}
+main ul li a:hover{
+  color: lightgray;
+  text-decoration: none;
+}
+main ul li a:hover{
+  font-size: 31px;
+}
+main section{
+  border: 1px solid black;
+  background: rgba(105,105,105,0.3);
+  padding: 20px 20px 20px 20px;
+  width: 500px;
+  height: auto;
+  margin: 20px auto 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+}
+main section h2{
+  border: 1px solid black;
+  border: none;
+  color: darkslategray;
+  width: 400px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+main section p{
+  color: dimgray;
+  font-size: 25px;
+}
+main section p em{
+  color: red;
+}
+main section p span{
+  color: darkred;
+}
+main section p span:hover{
+  color: lightgreen;
+  /*font-size: 20px;*/
+}
+aside{
+  border: 1px solid black;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+aside ul{
+  border: 1px solid black;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto 0 auto;
+  width: 900px;
+  height: auto;
+}
+aside ul li{
+  display: inline;
+  margin: 0 15px 0 15px;
+  color: green;
+}
+aside ul li a{
+  display: inline;
+  /*margin: 0 15px 0 15px;*/
+  color: darkgray;
+  text-decoration: none;
+}
+aside ul li a:hover{
+  display: inline;
+  /*margin: 0 15px 0 15px;*/
+  color: gray;
+  text-decoration: none;
+}
+footer{
+  border: 1px dashed yellow;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  color: darkred;
+}
+footer ul{
+  border: 1px solid black;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+footer ul li{
+  display: inline;
+  margin: 0 15px 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of code copy rights of 2017 Fonzie X*/
