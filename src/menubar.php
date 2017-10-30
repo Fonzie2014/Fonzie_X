@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>menu bar</title>
-        <link rel="stylesheet" href="menubar.css">
-    </head>
-    <body>
         <header>
             <ul>
                 <li><a href="">Home</a></li>
@@ -18,5 +10,3 @@
                 <li><a href="#">Support</a></li>
             </ul>
         </header>
-    </body>
-</html>
