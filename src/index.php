@@ -10,22 +10,11 @@ update 1.7
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <script src="iTwinna.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="menubar.css">
   <title>Home page</title>
 </head>
 <body>
-  <header>
-
-        <ul class="weekList">
-            <li title="Click to go to Week One."><a class="weekListLinks" href="index.html">Week 1</a></li>
-            <li title="Click to go to Week Two"><a class="weekListLinks" href="week2.html">Week 2</a></li>
-            <li title="Click to go to Week Three."><a class="weekListLinks" href="week3.html">Week 3</a></li>
-            <li title="Click to go to Week Four."><a class="weekListLinks" href="week4.html">Week 4</a></li>
-            <li title="Click to go to Week Five."><a class="weekListLinks" href="week5.html">Week 5</a></li>
-            <li title="Click to go to Week Six."><a class="weekListLinks" href="week6.html">Week 6</a></li>
-      </ul>
-      <h1 id="h1-section">Week 1</h1>
-
-  </header>
+  <?php include "src/menubar.php" ?>
   <section>
     <h2 id="my-account-style"><a href="my_account_page.html">My Account</a></h2>
   </section>
@@ -67,12 +56,6 @@ update 1.7
         </ul>
       </aside>
     </aside>
-    <style media="screen">
-      .colorRed{color:red;}
-      .colorGreen{color:green;}
-      .colorOrange{color:orange;}
-
-    </style>
   <!-- </section> -->
 
   <section class="table-section">
