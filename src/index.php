@@ -14,7 +14,7 @@ update 1.7
   <title>Home page</title>
 </head>
 <body>
-  <?php include "src/menubar.php" ?>
+  <?php include "menubar.php" ?>
   <section>
     <h2 id="my-account-style"><a href="my_account_page.html">My Account</a></h2>
   </section>
