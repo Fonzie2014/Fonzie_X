@@ -36,7 +36,7 @@
           <file leaf-file-name="menubar.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/menubar.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
+                <state relative-caret-position="219">
                   <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
                   <folding />
                 </state>
@@ -332,12 +332,12 @@
       <workItem from="1508550752498" duration="938000" />
       <workItem from="1508712234058" duration="8315000" />
       <workItem from="1508869578166" duration="41000" />
-      <workItem from="1509385817479" duration="2220000" />
+      <workItem from="1509385817479" duration="2440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71129000" />
+    <option name="totallyTimeSpent" value="71349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/menubar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="219">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
