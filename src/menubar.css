@@ -17,6 +17,8 @@ header ul li{
   display: inline;
   margin: 0 90px 0 25px;
   font-size:20px;
+  color:antiquewhite;
+
 }
 header ul li a{
   color:antiquewhite;
@@ -26,5 +28,10 @@ header ul li a{
 header ul li a:hover{
   color:lightslategrey;
   text-decoration: underline;
-
 }
+header ul li select option{
+  color:lightslategrey;
+  text-decoration: underline;
+  border:none;
+}
+
